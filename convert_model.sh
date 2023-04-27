@@ -14,5 +14,5 @@ wget -c https://civitai.com/api/download/models/$civitai_model_id -O $model_name
 pip install -r requirements.txt
 
 # Convert model
-python convert_diffusers20_original_sd.py $model_name.safetensors $output_dir/$model_name --v1 --reference_model runwayml/stable-diffusion-v1-5
+python convert_diffusers20_original_sd.py $model_name.safetensors $output_dir --v1 --reference_model runwayml/stable-diffusion-v1-5
 
