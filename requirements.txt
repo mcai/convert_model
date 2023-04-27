@@ -1,0 +1,11 @@
+diffusers==0.14.0
+torch==1.13.1 --extra-index-url=https://download.pytorch.org/whl/cu116
+ftfy==6.1.1
+scipy==1.9.3
+transformers==4.27.4
+accelerate==0.18.0
+xformers==0.0.16
+python-dotenv==0.20.0
+safetensors
+argparse
+triton
